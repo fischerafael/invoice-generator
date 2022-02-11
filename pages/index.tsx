@@ -1,7 +1,8 @@
 import React from "react";
+import { PageApp } from "../src/pages/PageApp";
 
 const index = () => {
-  return <div>index</div>;
+  return <PageApp />;
 };
 
 export default index;
