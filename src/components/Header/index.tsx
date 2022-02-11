@@ -5,7 +5,9 @@ export const Header = () => {
   return (
     <HStack h="10vh" w="full" align="center" justify="center">
       <HStack h="full" w="full" maxW="container.md" justify="space-between">
-        <Text fontWeight="black">InvoiceGenerator</Text>
+        <Text color="purple.500" fontWeight="black">
+          InvoiceGenerator
+        </Text>
         <Button variant="outline" fontSize="xs" colorScheme="purple">
           Log Out
         </Button>
